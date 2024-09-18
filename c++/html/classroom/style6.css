@@ -1,0 +1,42 @@
+/* div{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    background-color: aqua;
+}
+li{
+    list-style-type: none;
+    display: inline;
+} */
+
+ul{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+li{
+    list-style-type: none;
+    /* background-color: aqua ; */
+}
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color:cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color:crimson;
+}

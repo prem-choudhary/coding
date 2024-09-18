@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .magic {
+            width: 100px;
+            height: 200px;
+            background-color: rgba(0, 247, 255, 0.575);
+            font-size: 20px;
+            border: 5px solid black;
+            border-radius: 8px;
+            position: relative;
+            overflow: hidden;
+        }
+        .name{
+            width: 10px;
+            height: 20px;
+            background-color: black;
+        }
+
+        .magic:hover .name {
+            animation: moveAround 5s linear infinite; /* Apply animation */
+        }
+
+        @keyframes moveAround {
+            0% {
+                transform: rotate(0deg) translateX(100px) rotate(0deg); /* Initial position */
+            }
+            100% {
+                transform: rotate(360deg) translateX(100px) rotate(-360deg); /* Final position */
+            }
+        }
+
+        .name {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="magic">
+        <div class="name">
+            
+        </div>
+    </div>
+
+</body>
+</html>

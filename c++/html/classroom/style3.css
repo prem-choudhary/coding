@@ -1,0 +1,78 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+#box1{
+    height: 100px;
+    width: 100px;
+}
+
+#box2{
+   height: 100px;
+   width: 100px;
+}
+ #box3{
+    height: 100px;
+    width: 100px;
+ }
+ #box4{
+    height: 100px;
+    width: 100px;
+ }
+ 
+ /* #box5{
+    position: static;
+    top: 20px;
+ }
+ 
+ #box6{
+    position: relative;
+    top: 20px;
+ }
+ 
+ #box7{
+    position: static;
+    top: 20px;
+ }
+ 
+ #box8{
+    position: relative;
+    top: 20px;
+ }
+ 
+ #box9{
+    position: static;
+    top: 20px;
+ }
+ 
+ #box10{
+    position: relative;
+    top: 20px; */
+ /* } */
+
+ #box1{
+    background-image: url("classroom/car_photo.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+ }
+ 
+ #box2{
+    background-image: url("classroom/gaadi.jpg");
+    background-size: contain;
+ }
+ #box3{
+    background-image: url("classroom/cartoon.jpg");
+    background-size: contain;
+ }
+ #box4{
+    background-image: url("view.jpg");
+    background-size: contain;
+ }
+
+
+ 
+
+ 

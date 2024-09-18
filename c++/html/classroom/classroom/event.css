@@ -1,0 +1,50 @@
+
+body{
+      background-color: blueviolet;
+      color: black;
+
+}
+
+
+
+
+.navigation{
+    /* text-align: center;
+    display: inline; */
+    width: 420px;
+    height: 70px;
+    background: #209cff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.navigation ul {
+    display: flex;
+    width: 350px;
+
+}
+.navigation ul li {
+    position: relative;
+    list-style: none;
+    width: 70px;
+    height: 70px;
+    z-index: 1;
+}
+   :hover{
+    background-color:rgb(202, 164, 94);
+    color: pink;
+}  
+
+.box{
+    position: relative;
+    display: inline;
+    height: 1000px;
+    width: 100px;
+    background-color: white;
+    color: blueviolet;
+}
+
+

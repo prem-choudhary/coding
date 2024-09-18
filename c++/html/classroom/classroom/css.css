@@ -1,0 +1,47 @@
+*{
+    background-color: blueviolet;
+}
+
+.heading{
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+}
+.Song{
+  font-size: 25px;
+    color: white;
+    /* text-align: center; */
+    /* align-items: center; */
+    
+
+}
+.link{
+    height: 100px;
+    width: 100px;
+}
+a{
+    display: inline-block ; 
+    font-size: 35px;
+         
+}
+h1{
+    /* text-align: center; */
+    color: blanchedalmond;
+}
+.king{
+    color: black;
+    background-image: url("king.jpeg");
+    background-size: contain;
+    height: 180px;
+    width: 500pxp;
+}
+.darshan{
+    color: black;
+    background-image: url("darshan\ raval.webp");
+    background-size: contain;
+    height: 100px;
+    width: 500pxp;
+    margin-top:10px;
+    padding-top: 25px;
+
+}

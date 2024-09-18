@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chai or code with hitesha sir</title>
+
+</head>
+<body style="background-color: #212; color:white;">
+    <ul class="language">
+        <li>Javascript</li>
+        <!-- <li>java</li>
+        <li>react</li> -->
+    </ul>   
+    <!-- <li>Javascript</li> -->
+    
+</body>
+<script>
+       function addLanguage(langName){
+          const li = document.createElement('li');   
+         li.innerHTML= `${langName}`
+          document.querySelector('.language').
+            appendChild(li)
+    
+        }
+        addLanguage('python')
+        addLanguage('typescript')
+
+        function addOptiLanguage(langName){
+            const li = document.createElement('li')
+            li.appendChild(document.createTextNode(langName))
+            document.querySelector( '.language').appendChild(li)
+        }
+        addOptiLanguage('golang')
+
+
+        // Edit 
+
+        const secondLang = document.querySelector ("li:nth-child(2)")
+
+        // secondLang.innerHYML = "mojo"
+
+        const nweli = document.createElement('li')
+        nweli.textContent = "mojo"
+        secondLang.replaceWith(nweli)
+
+        // edit  
+
+       const fristLang =  document.querySelector("li:frist-child ")
+       fristLang.outerHTML = '<li>TypeScript</li>'
+
+       // Remove 
+
+     const lastLang =  document.querySelector("li:last-child")
+       lastLang . remove()
+       
+
+
+    
+
+
+
+    
+</script>
+</html>

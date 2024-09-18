@@ -1,0 +1,63 @@
+*{
+    background-color:cadetblue;
+}
+
+
+
+h1{
+    color: red;
+    /* text-align: center; */
+}
+.box{
+    color: red;
+    font-size: 30px;
+    text-decoration: underline;
+    /* text-align: center; */
+}
+.box1{
+    color: bisque;
+    font-size: 30px;
+    text-align: left;
+}
+.box2{
+    color: black;
+    font-size: 30px;
+    text-align: left;
+    /* text-align-last: justify; */
+
+}
+
+.link{
+    color: blueviolet;
+    font-size: 35px;
+    text-decoration: underline;
+    
+}
+h2{
+    font-size: 50px;
+    color: red;
+    /* text-align: center; */
+
+}
+.box3{
+    color: black;
+    font-size: 40px;
+    /* text-align: center; */
+    /* text-align-last: justify; */
+
+}
+h3{
+    color: blue;
+    font-size: 45px;
+    /* text-align: center;
+    text-align-last: justify; */
+}
+.cricket{
+    margin-top: 10px;
+    /* display: block; */
+    text-align-last: justify;
+}
+
+.song{
+    display:center;
+}

@@ -1,0 +1,49 @@
+div{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    padding: 20px;
+    display: inline-block ;
+    background-color: rgba(0,100,0,0.75);
+
+}
+#box2{
+    background-color: rgba(100,12,0,0.55); 
+    background-image:url("gaadi.jpg");
+    background-size: contain;
+}
+#box3{
+    background-color: rgba(10,12,110,0.25); 
+    background-image:url("view.jpg");
+    background-size: contain;
+}
+
+#box4{
+    background-color: rgb(210, 30, 156);
+    background-image:url("cartoon.jpg");
+    background-size: contain;
+}
+#box5{
+    background-color: aqua;
+}
+button{
+    background-color: blanchedalmond;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    /* top: right;
+    left: 50px; */
+    /* border: 5px solid antiquewhite; */
+}
+
+div:hover{
+    background-color: aqua;
+    color: rgb(255, 100, 0); 
+     font-size: 50px;
+    background-image: url("car_photo.jpg");
+
+    background-size: contain; 
+    
+    /* transform: scale(2,1);  */
+
+}
